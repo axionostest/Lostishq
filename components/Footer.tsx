@@ -1,0 +1,3 @@
+export default function Footer() {
+  return (<footer className="border-t border-neutral-900 py-8 text-center text-sm text-neutral-500"><div className="flex justify-center gap-6 mb-4"><a href="https://youtube.com" target="_blank" className="hover:text-white min-h-[44px] grid place-items-center">YouTube</a><a href="https://spotify.com" target="_blank" className="hover:text-white min-h-[44px] grid place-items-center">Spotify</a><a href="https://instagram.com" target="_blank" className="hover:text-white min-h-[44px] grid place-items-center">Instagram</a></div><p>© {new Date().getFullYear()} Lost Ishq. All rights reserved.</p></footer>)
+}
